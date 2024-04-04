@@ -1,0 +1,33 @@
+.page-project {
+  margin: 0px;
+  padding: 60px 0px 0px 0px;
+  width: 100%;
+}
+.page-project__container {
+  margin: 0px;
+  padding: 0px 0px 400px 0px;
+  width: 100%;
+}
+.page-project__title {
+  margin: 0px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 54px;
+  color: var(--title-color);
+}
+.page-project__list {
+  margin: 20px 0px 0px 0px;
+  padding: 0px;
+  width: 100%;
+  list-style-type: none;
+  display: grid;
+  gap: 44px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.page-project__item {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+}
