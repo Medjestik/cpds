@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.58242b55.css",
+    "main.js": "/static/js/main.eebbbe89.js",
+    "static/js/453.afe0a4b2.chunk.js": "/static/js/453.afe0a4b2.chunk.js",
+    "static/media/team.svg": "/static/media/team.365d5af9cedf6ede2abf.svg",
+    "static/media/EtelkaMediumPro-Bold.eot": "/static/media/EtelkaMediumPro-Bold.93e60e3753a566013673.eot",
+    "static/media/EtelkaMediumPro-Bold.ttf": "/static/media/EtelkaMediumPro-Bold.645ca504dab584298417.ttf",
+    "static/media/EtelkaMediumPro.eot": "/static/media/EtelkaMediumPro.9c4d25199f19324ee122.eot",
+    "static/media/EtelkaMediumPro.ttf": "/static/media/EtelkaMediumPro.68fed28606263bfffee2.ttf",
+    "static/media/EtelkaMediumPro.woff": "/static/media/EtelkaMediumPro.a985452eda682e64daad.woff",
+    "static/media/EtelkaMediumPro-Bold.woff": "/static/media/EtelkaMediumPro-Bold.db5e0c366f6e001cd7ea.woff",
+    "static/media/logo_white.png": "/static/media/logo_white.e4de507140682578edf1.png",
+    "static/media/logo_black.png": "/static/media/logo_black.eab99a71801af547ea3b.png",
+    "index.html": "/index.html",
+    "static/media/footer-arrow.svg": "/static/media/footer-arrow.9e5bf68416b1376934f2.svg",
+    "main.58242b55.css.map": "/static/css/main.58242b55.css.map",
+    "main.eebbbe89.js.map": "/static/js/main.eebbbe89.js.map",
+    "453.afe0a4b2.chunk.js.map": "/static/js/453.afe0a4b2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58242b55.css",
+    "static/js/main.eebbbe89.js"
+  ]
+}
