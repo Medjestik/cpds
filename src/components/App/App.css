@@ -36,6 +36,13 @@
   margin: 0px auto;
   box-sizing: border-box;
 }
+.section-stub {
+  margin: 20px 0px 0px 0px;
+  width: 100%;
+  height: 400px;
+  background-color: var(--white-color);
+  border-radius: var(--border-radius);
+}
 .text_color_main {
   color: var(--main-color);
 }

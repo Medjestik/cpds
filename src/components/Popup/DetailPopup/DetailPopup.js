@@ -18,7 +18,6 @@ function DetailPopup({ isOpen, onClose, popupName, project, isLoadingRequest }) 
     //onConfirm(project);
   }
 
-
   const getParagraphs = (text) => {
     return text.split('\n').map((paragraph, index) => (
       <p className='detail__text' key={index}>{paragraph}</p>
@@ -93,7 +92,7 @@ function DetailPopup({ isOpen, onClose, popupName, project, isLoadingRequest }) 
           isLoadingRequest ? 
           <button className='popup__btn-save popup__btn-save_type_loading' disabled type='button'>Сохранение..</button>
           :
-          <button className={`popup__btn-save ${isBlockSubmitButton ? 'popup__btn-save_type_block' : ''}`} disabled type='button'>Записаться</button>
+          <a className={`popup__btn-save`} href={project.request_link || ''} target='_blank' rel='noreferrer'>Записаться</a>
         }
       </div>
       <span className={`popup__input-error ${isShowRequestError.isShow && 'popup__input-error_status_show'}`}>{isShowRequestError.text}</span>

@@ -12,9 +12,10 @@ function PageHeader() {
           <img className='page-header__logo' alt='Логотип' src={logo}></img>
           <nav className='page-header__nav'>
             <ul className='page-header__nav-list'>
-              <li className='page-header__nav-item'><Link  to='project' smooth={true} offset={20} duration={500} spy={true}>Проекты</Link></li>
-              <li className='page-header__nav-item'>Партнеры</li>
-              <li className='page-header__nav-item'><Link  to='footer' smooth={true} offset={0} duration={1500} spy={true}>Контакты</Link></li>
+              <li className='page-header__nav-item'><Link  to='information' smooth={true} offset={20} duration={500} spy={true}>Информация</Link></li>
+              <li className='page-header__nav-item'><Link  to='project' smooth={true} offset={20} duration={1000} spy={true}>Проекты</Link></li>
+              <li className='page-header__nav-item'><Link  to='partners' smooth={true} offset={20} duration={1500} spy={true}>Партнеры</Link></li>
+              <li className='page-header__nav-item'><Link  to='footer' smooth={true} offset={0} duration={2000} spy={true}>Контакты</Link></li>
             </ul>
           </nav>
         </div>

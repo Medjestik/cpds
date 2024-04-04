@@ -15,9 +15,9 @@ function PageFooter() {
           <nav className='footer__nav'>
             <div className='footer__column'>
               <h4 className='footer__column-title'>Навигация</h4>
-              <Link className='footer__link' to='main' smooth={true} offset={0} duration={1500} spy={true}>Главная</Link>
+              <Link className='footer__link' to='information' smooth={true} offset={0} duration={1500} spy={true}>Информация</Link>
               <Link className='footer__link' to='project' smooth={true} offset={20} duration={1000} spy={true}>Проекты</Link>
-              <Link className='footer__link' to='description' smooth={true} offset={0} duration={500} spy={true}>Партнеры</Link>
+              <Link className='footer__link' to='partners' smooth={true} offset={0} duration={500} spy={true}>Партнеры</Link>
             </div>
             <div className='footer__column footer__column_type_large'>
               <h4 className='footer__column-title'>Ресурсы</h4>

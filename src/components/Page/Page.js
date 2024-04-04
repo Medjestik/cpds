@@ -4,7 +4,9 @@ import * as api from '../../utils/api.js';
 import Preloader from '../Preloader/Preloader.js';
 import PageHeader from './PageHeader/PageHeader';
 import PageMain from './PageMain/PageMain';
+import PageInformation from './PageInformation/PageInformation.js';
 import PageProject from './PageProject/PageProject';
+import PagePartners from './PagePartners/PagePartners.js';
 import PageFooter from './PageFooter/PageFooter';
 import DetailPopup from '../Popup/DetailPopup/DetailPopup.js';
 
@@ -60,7 +62,9 @@ function Page() {
       <div className='page'>
         <PageHeader />
         <PageMain />
+        <PageInformation />
         <PageProject projects={projects} onDetail={openDetailPopup} />
+        <PagePartners />
         <PageFooter />
 
         {

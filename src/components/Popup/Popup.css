@@ -185,6 +185,8 @@
   font-weight: bold;
   font-size: 14px;
   line-height: 18px;
+  text-align: center;
+  text-decoration: none;
   transition: all .3s ease-in-out;
 }
 .popup__btn-save:hover  {

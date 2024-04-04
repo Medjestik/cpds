@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.58242b55.css",
-    "main.js": "/static/js/main.eebbbe89.js",
+    "main.css": "/static/css/main.f5139bda.css",
+    "main.js": "/static/js/main.e7b91e1a.js",
     "static/js/453.afe0a4b2.chunk.js": "/static/js/453.afe0a4b2.chunk.js",
     "static/media/team.svg": "/static/media/team.365d5af9cedf6ede2abf.svg",
     "static/media/EtelkaMediumPro-Bold.eot": "/static/media/EtelkaMediumPro-Bold.93e60e3753a566013673.eot",
@@ -14,12 +14,12 @@
     "static/media/logo_black.png": "/static/media/logo_black.eab99a71801af547ea3b.png",
     "index.html": "/index.html",
     "static/media/footer-arrow.svg": "/static/media/footer-arrow.9e5bf68416b1376934f2.svg",
-    "main.58242b55.css.map": "/static/css/main.58242b55.css.map",
-    "main.eebbbe89.js.map": "/static/js/main.eebbbe89.js.map",
+    "main.f5139bda.css.map": "/static/css/main.f5139bda.css.map",
+    "main.e7b91e1a.js.map": "/static/js/main.e7b91e1a.js.map",
     "453.afe0a4b2.chunk.js.map": "/static/js/453.afe0a4b2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.58242b55.css",
-    "static/js/main.eebbbe89.js"
+    "static/css/main.f5139bda.css",
+    "static/js/main.e7b91e1a.js"
   ]
 }
