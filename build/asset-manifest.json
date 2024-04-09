@@ -1,25 +1,36 @@
 {
   "files": {
-    "main.css": "/static/css/main.f5139bda.css",
-    "main.js": "/static/js/main.e7b91e1a.js",
+    "main.css": "/static/css/main.d1bff3fa.css",
+    "main.js": "/static/js/main.4b97c21a.js",
     "static/js/453.afe0a4b2.chunk.js": "/static/js/453.afe0a4b2.chunk.js",
+    "static/media/stan.png": "/static/media/stan.e772c36477c4aaccf7e3.png",
+    "static/media/strog.svg": "/static/media/strog.2899153616e3b5012ac9b86d36015d20.svg",
+    "static/media/cst.png": "/static/media/cst.59690d1e774df065b816.png",
     "static/media/team.svg": "/static/media/team.365d5af9cedf6ede2abf.svg",
     "static/media/EtelkaMediumPro-Bold.eot": "/static/media/EtelkaMediumPro-Bold.93e60e3753a566013673.eot",
     "static/media/EtelkaMediumPro-Bold.ttf": "/static/media/EtelkaMediumPro-Bold.645ca504dab584298417.ttf",
     "static/media/EtelkaMediumPro.eot": "/static/media/EtelkaMediumPro.9c4d25199f19324ee122.eot",
     "static/media/EtelkaMediumPro.ttf": "/static/media/EtelkaMediumPro.68fed28606263bfffee2.ttf",
+    "static/media/vniijt.svg": "/static/media/vniijt.dcd12612dcc6f4d159afcd83d15b9f1f.svg",
+    "static/media/moek.png": "/static/media/moek.a981dfa540c9cf6e94cf.png",
+    "static/media/seminar.svg": "/static/media/seminar.97b444494c2a573ba1ad29b018265b81.svg",
+    "static/media/registration.svg": "/static/media/registration.59403d68aba756fa7708d17e94aa1ca5.svg",
     "static/media/EtelkaMediumPro.woff": "/static/media/EtelkaMediumPro.a985452eda682e64daad.woff",
     "static/media/EtelkaMediumPro-Bold.woff": "/static/media/EtelkaMediumPro-Bold.db5e0c366f6e001cd7ea.woff",
     "static/media/logo_white.png": "/static/media/logo_white.e4de507140682578edf1.png",
     "static/media/logo_black.png": "/static/media/logo_black.eab99a71801af547ea3b.png",
+    "static/media/rut-logo-color.svg": "/static/media/rut-logo-color.7133861d9e5a137550b6c8295a661374.svg",
+    "static/media/alma.svg": "/static/media/alma.ba5a83a12933cd5f65439ea56c3eda35.svg",
+    "static/media/rzd.svg": "/static/media/rzd.c7b584f2b08e4ac3ee75207fa92f5ebf.svg",
+    "static/media/mosk.svg": "/static/media/mosk.bd2c766d8985940c907cada93d4cdfa9.svg",
     "index.html": "/index.html",
     "static/media/footer-arrow.svg": "/static/media/footer-arrow.9e5bf68416b1376934f2.svg",
-    "main.f5139bda.css.map": "/static/css/main.f5139bda.css.map",
-    "main.e7b91e1a.js.map": "/static/js/main.e7b91e1a.js.map",
+    "main.d1bff3fa.css.map": "/static/css/main.d1bff3fa.css.map",
+    "main.4b97c21a.js.map": "/static/js/main.4b97c21a.js.map",
     "453.afe0a4b2.chunk.js.map": "/static/js/453.afe0a4b2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5139bda.css",
-    "static/js/main.e7b91e1a.js"
+    "static/css/main.d1bff3fa.css",
+    "static/js/main.4b97c21a.js"
   ]
 }
