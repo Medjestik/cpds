@@ -19,9 +19,15 @@ function PageFooter() {
               <Link className='footer__link' to='project' smooth={true} offset={20} duration={1000} spy={true}>Проекты</Link>
               <Link className='footer__link' to='partners' smooth={true} offset={0} duration={500} spy={true}>Партнеры</Link>
             </div>
-            <div className='footer__column footer__column_type_large'>
+            <div className='footer__column'>
               <h4 className='footer__column-title'>Ресурсы</h4>
               <a className='footer__link' href='https://www.miit.ru/' target='_blank' rel='noreferrer'>РУТ (МИИТ)</a>
+              <a className='footer__link' href='https://www.miit.ru/edu/project-activity' target='_blank' rel='noreferrer'>ЦПДС</a>
+            </div>
+            <div className='footer__column footer__column_type_large'>
+              <h4 className='footer__column-title'>Контакты</h4>
+              <p className='footer__text'>cpds@miit.ru</p>
+              <p className='footer__text'>г. Москва, ул Образцова, д. 9, стр. 7</p>
             </div>
           </nav>
         </div>

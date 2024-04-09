@@ -10,7 +10,7 @@ import PagePartners from './PagePartners/PagePartners.js';
 import PageFooter from './PageFooter/PageFooter';
 import DetailPopup from '../Popup/DetailPopup/DetailPopup.js';
 
-function Page() {
+function Page({ windowWidth }) {
 
   const [projects, setProjects] = React.useState([]);
   const [currentProject, setCurrentProject] = React.useState({});
@@ -64,9 +64,8 @@ function Page() {
         <PageMain />
         <PageInformation />
         <PageProject projects={projects} onDetail={openDetailPopup} />
-        <PagePartners />
+        <PagePartners windowWidth={windowWidth} />
         <PageFooter />
-
         {
           isShowDetailPopup &&
           <DetailPopup 

@@ -695,8 +695,8 @@
     margin: 0px;
   }
   .popup__input-caption {
-    font-size: 12px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 20px;
   }
   .popup__input {
     padding: 6px 12px 6px 12px;

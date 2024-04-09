@@ -73,7 +73,13 @@ function DetailPopup({ isOpen, onClose, popupName, project, isLoadingRequest }) 
 
       <div className='popup__field'>
         <h4 className='popup__input-caption'>Кто нам нужен:</h4>
-        <p className='detail__text'>{project.required_by}</p>
+        <ul className='project-card__section-list'>
+          {
+            project.required_by.split(';').map((elem, i) => (
+            <li key={i} className='project-card__section-item'>{i + 1}. {elem}</li>
+            ))
+          }
+        </ul>
       </div>
       
       <div className='popup__field'>
