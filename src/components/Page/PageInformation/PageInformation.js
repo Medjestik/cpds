@@ -20,7 +20,7 @@ function PageInformation() {
                 <p className='page-information__block-subtitle'>Проектная деятельность — ключевой предмет в РУТ (МИИТ), объединяющий студентов разных направлений подготовки.</p>
                 <p className='page-information__block-subtitle'>Учебная программа предмета включает изучение инструментов из областей предпринимательства, маркетинга, науки и образования. Команды применяют полученные знания и навыки для решения реальных проблем бизнеса и науки.</p>
                 <p className='page-information__block-subtitle'>Некоторые проекты требуют специфических знаний и умений, поэтому университет приглашает студентов из других вузов к участию в совместной работе.</p>
-                <a className='page-main__button' href='https://www.youtube.com/watch?v=sItjvDJ3Lsk' target='_blank' rel='noreferrer'>Модель проектной деятельности</a>
+                <a className='page-main__button' href='https://www.youtube.com/embed/Yq_di2MBupo?si=leiqgj_tq4s8d1d_' target='_blank' rel='noreferrer'>Модель проектной деятельности</a>
               </div>
             </div>
             <div className='page-information__block page-information__block_type_reverse'>

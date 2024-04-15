@@ -20,16 +20,24 @@ function ProjectCard({ card, onDetail }) {
       <div className='project-card__main'>
         {
           card.status && card.status === 'new'
-          ? 
+          ?
+          <>
           <div className='project-card__status'>
             <div className='project-card__status-icon project-card__status-icon_type_new'></div>
-            <span className='project-card__status-text'>Новый проект</span>
+            <span className='project-card__status-text'>Начинающийся проект</span>
+            <div className='project-card__tooltip project-card__tooltip_type_new'>Это проект, работа над которым только началась или начнётся. Это означает, что у вас есть возможность подключиться к команде в самом начале пути и поучаствовать во всех стадиях, начиная с аналитики проблемы и генерации идей её решения.</div>
           </div>
+          
+          </>
           :
+          <>
           <div className='project-card__status'>
             <div className='project-card__status-icon project-card__status-icon_type_progress'></div>
-            <span className='project-card__status-text'>Проект продолжается</span>
+            <span className='project-card__status-text'>Продолжающийся проект</span>
+            <div className='project-card__tooltip project-card__tooltip_type_progress'>Это проект, работа над которым идёт более полугода. За это время команда проекта обычно успевает провести аналитику и разработать конечный образ решения. Чаще всего для таких проектов ищут специалистов или людей, которые имеют представление о конкретных областях и технологиях.</div>
           </div>
+          
+          </>
         }
         <h4 className='project-card__title'>{card.name || ''}</h4>
         <p className='project-card__subtitle'>{card.problem || ''}</p>

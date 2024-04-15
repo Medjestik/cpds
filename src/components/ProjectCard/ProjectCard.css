@@ -81,16 +81,52 @@
   flex-direction: column;
   flex-grow: 2;
 }
+.project-card__tooltip {
+  display: none;
+  margin: 0px;
+  padding: 12px;
+  box-sizing: border-box;
+  position: absolute;
+  width: 88%;
+  top: 46px;
+  left: 20px;
+  border-radius: var(--border-radius);
+  background-color: var(--background-secondary-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--title-color);
+  transition: all .3s ease-in-out;
+}
+.project-card__tooltip_type_new {
+  background-color: var(--third-color);
+}
+.project-card__tooltip_type_progress {
+  background-color: var(--secondary-color);
+}
 .project-card__status {
   margin: 12px 0px 0px 0px;
   display: flex;
   align-items: center;
+  transition: all .3s ease-in-out;
+}
+.project-card__status:hover {
+  cursor: pointer;
+}
+.project-card__status:hover .project-card__tooltip {
+  display: block;
+  position: absolute;
 }
 .project-card__status-icon {
   margin: 0px 12px 0px 0px;
-  width: 18px;
-  height: 18px;
+  width: 24px;
+  height: 24px;
   background-color: var(--main-color);
+  background-image: url('../../images/info.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
   border-radius: 50%;
 }
 .project-card__status-icon_type_progress {

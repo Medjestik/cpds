@@ -45,12 +45,12 @@ function DetailPopup({ isOpen, onClose, popupName, project, isLoadingRequest }) 
         ? 
         <div className='project-card__status'>
           <div className='project-card__status-icon project-card__status-icon_type_new'></div>
-          <span className='project-card__status-text'>Новый проект</span>
+          <span className='project-card__status-text'>Начинающийся проект</span>
         </div>
         :
         <div className='project-card__status'>
           <div className='project-card__status-icon project-card__status-icon_type_progress'></div>
-          <span className='project-card__status-text'>Проект продолжается</span>
+          <span className='project-card__status-text'>Продолжающийся проект</span>
         </div>
       }
 

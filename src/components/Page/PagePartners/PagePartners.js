@@ -34,7 +34,9 @@ function PagePartners(windowWidth) {
               {
                 partners.map((elem, i) => (
                   <li className='partners__item' key={i}>
-                    <img className='partners__item-img' src={elem} alt=' '></img>
+                    <a href={elem.link} target='_blank' rel='noreferrer'>
+                      <img className='partners__item-img' src={elem.img} alt=' '></img>
+                    </a>
                   </li>
                 ))
               }

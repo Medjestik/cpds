@@ -27,7 +27,7 @@ function PageFooter() {
             <div className='footer__column footer__column_type_large'>
               <h4 className='footer__column-title'>Контакты</h4>
               <p className='footer__text'>cpds@miit.ru</p>
-              <p className='footer__text'>г. Москва, ул Образцова, д. 9, стр. 7</p>
+              <p className='footer__text'>г. Москва, ул Образцова, д. 9, стр. 9</p>
             </div>
           </nav>
         </div>
